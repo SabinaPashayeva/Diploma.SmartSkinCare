@@ -406,3 +406,4 @@ ASALocalRun/
 .localhistory/
 src/SmartSkinCare.IdentityServer/Properties/launchSettings.json
 src/SmartSkinCare.WebApi/Properties/launchSettings.json
+src/IdentityServer/Properties/launchSettings.json
