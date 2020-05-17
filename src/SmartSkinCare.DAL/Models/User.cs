@@ -27,5 +27,8 @@ namespace SmartSkinCare.DAL.Models
 
         public ICollection<AnalysisDevice> AnalysisDevices { get; set; }
             = new List<AnalysisDevice>();
+
+        public ICollection<RecommendedComplex> RecommendedComplexes { get; set; }
+            = new List<RecommendedComplex>();
     }
 }

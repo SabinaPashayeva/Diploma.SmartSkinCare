@@ -15,7 +15,5 @@ namespace SmartSkinCare.DAL.Models
 
 
         public double AnalysisResult { get; set; }
-
-        public string Measurement { get; set; }
     }
 }

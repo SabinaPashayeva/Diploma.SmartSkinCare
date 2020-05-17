@@ -14,5 +14,8 @@ namespace SmartSkinCare.DAL.Models
 
         public ICollection<UserSkinDefect> UserSkinDefects { get; set; }
             = new List<UserSkinDefect>();
+
+        public ICollection<TreatableDefect> TreatableDefects { get; set; }
+            = new List<TreatableDefect>();
     }
 }

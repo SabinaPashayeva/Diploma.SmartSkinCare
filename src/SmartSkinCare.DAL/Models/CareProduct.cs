@@ -19,6 +19,8 @@ namespace SmartSkinCare.DAL.Models
 
         public string Composition { get; set; }
 
+        public double DurationOfUse { get; set; }
+
 
         public Guid ManufacturerId { get; set; }
 
@@ -27,5 +29,11 @@ namespace SmartSkinCare.DAL.Models
 
         public ICollection<UserCareProduct> UserCareProducts { get; set; }
             = new List<UserCareProduct>();
+
+        public ICollection<TreatableDefect> TreatableDefects { get; set; }
+            = new List<TreatableDefect>();
+
+        public ICollection<ComplexMeans> ComplexMeans { get; set; }
+            = new List<ComplexMeans>();
     }
 }

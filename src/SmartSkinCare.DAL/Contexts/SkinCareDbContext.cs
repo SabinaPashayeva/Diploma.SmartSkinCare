@@ -20,6 +20,12 @@ namespace SmartSkinCare.DAL.Contexts
 
             modelBuilder.Entity<UserCareProduct>()
                 .HasKey(p => new { p.UserId, p.CareProductId });
+
+            modelBuilder.Entity<ComplexMeans>()
+                .HasKey(c => new { c.RecommendedComplexId, c.CareProductId });
+
+            modelBuilder.Entity<TreatableDefect>()
+                .HasKey(t => new { t.CareProductId, t.SkinDefectId });
         }
     }
 }

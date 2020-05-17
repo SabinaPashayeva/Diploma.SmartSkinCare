@@ -2,19 +2,17 @@
 
 namespace SmartSkinCare.DAL.Models
 {
-    public class UserCareProduct
+    public class ComplexMeans
     {
-        public Guid UserId { get; set; }
+        public Guid RecommendedComplexId { get; set; }
 
-        public User User { get; set; }
+        public RecommendedComplex RecommendedComplex { get; set; }
 
 
         public Guid CareProductId { get; set; }
 
         public CareProduct CareProduct { get; set; }
 
-
-        public string CustomTitle { get; set; }
 
         public string Comment { get; set; }
 

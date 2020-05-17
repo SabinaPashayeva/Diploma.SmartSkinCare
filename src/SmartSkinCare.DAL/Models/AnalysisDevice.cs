@@ -11,6 +11,8 @@ namespace SmartSkinCare.DAL.Models
 
         public DeviceType DeviceType { get; set; }
 
+        public string Measurement { get; set; }
+
 
         public Guid UserId { get; set; }
 
